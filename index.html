@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="icon" href="hot.webp" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="temperature-image">
+            <img src="./hot.webp" alt="" class="temp-img">
+        </div>
+        <div class="container">
+            <h3><i class='bx bxs-thermometer bx-tada' ></i>Temperature Converter</h3>
+            <hr class="hr-line">
+            <div class="input-temp">
+                <div class="input-1">
+                    <label for="">Celsius...</label>
+                    <hr>
+                    <input type="number" class="in-1" id="cel"  placeholder="Degree Celsius">
+                </div>
+                <div class="input-1">
+                    <label for="">Fahrenheit...</label>
+                    <hr>
+                    <input type="number" class="in-1"  id="fa" placeholder="Fahrenheit">
+                </div>
+                <div class="input-1">
+                    <label for="">Kelvin...</label>
+                    <hr>    
+                    <input type="number" class="in-1" id="kel"  placeholder="Kelvin">
+                </div>
+            </div>
+            <div class="btn-sec">
+                <button class="full-rounded" id="convert">
+                    <span>Convert</span>
+                    <div class="border full-rounded"></div>
+                </button>
+                <button class="full-rounded" id="clear">
+                    <span>Reset T</span>
+                    <div class="border full-rounded"></div>
+                </button>
+            </div>
+            <div class="owner">
+                <a href="https://www.linkedin.com/in/zain-fatima-
+"><img src="./linkedin icon.png" alt="LinkedIn" class="social-icon"></a>
+                <a href="https://github.com/Zain-Fatima/"><img src="./Github icon.png" alt="GitHub" class="git-icon"></a>
+                <p class="myname">Zain Fatima</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
